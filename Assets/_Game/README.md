@@ -13,7 +13,7 @@ the source, and this file explains how the pieces fit the framework.
 
 ## 1. Required one-time project setup
 
-Two manual steps are needed before pressing Play. They are intentionally **not**
+Three manual steps are needed before pressing Play. They are intentionally **not**
 automated so you stay in control of project-level settings.
 
 ### a) Build Settings — scene order
@@ -36,6 +36,15 @@ Index 0 **must** be the Core scene. `FlappyMiniGame` loads the gameplay scene by
 The Core `InputManager` reads the legacy `UnityEngine.Input` API. With the project's
 default of *Input System Package (New)* only, that API throws at runtime and **no taps
 or swipes fire** — so the bird never flaps. "Both" keeps the legacy backend alive.
+
+### c) Company Name and Product Name
+
+`Project Settings ▸ Player` → set **Company Name** and **Product Name** to your own
+values. The template ships with placeholders, and these two fields feed the persistent
+data path (`Application.persistentDataPath`, e.g. `…/<company>/<product>/`) where the
+Core `SaveSystem` writes `FlappySaveData`. Change them **before** your first real build:
+editing them later moves the save location, so existing players would appear to lose
+their progress.
 
 Then open `Core.unity` and press **Play**: `Boot → MainMenu`, tap to play, flap through
 the pipes.
