@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.otaforge.mobileframework": "https://github.com/otacon9000/MobileFramework-Core.git#v1.0.2",
     "com.unity.2d.animation": "14.0.4",
     "com.unity.2d.aseprite": "4.0.2",
     "com.unity.2d.psdimporter": "13.0.3",

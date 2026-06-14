@@ -1,0 +1,11 @@
+{
+  "_meta": { "game": "flappy_clone", "language": "en", "version": 1 },
+  "flappy_title": "FLAPPY",
+  "flappy_tap_hint": "tap to play",
+  "flappy_paused": "PAUSED",
+  "flappy_tap_resume": "tap to resume",
+  "flappy_gameover": "GAME OVER",
+  "flappy_score": "Score {0}",
+  "flappy_best": "Best {0}",
+  "flappy_retry_hint": "tap to retry   -   swipe down for menu"
+}

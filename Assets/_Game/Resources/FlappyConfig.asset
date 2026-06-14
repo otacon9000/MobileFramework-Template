@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1b2a3948576655a4b3c2d1e0f01122, type: 3}
+  m_Name: FlappyConfig
+  m_EditorClassIdentifier:
+  gravityScale: 3.2
+  flapVelocity: 6.5
+  birdX: -2.4
+  birdRadius: 0.28
+  scrollSpeed: 3
+  pipeGap: 2.6
+  pipeSpacing: 3.4
+  pipeWidth: 1
+  gapVerticalJitter: 1.6
+  ceilingY: 5
+  floorY: -4.2
+  birdColor: {r: 0.98, g: 0.8, b: 0.2, a: 1}
+  pipeColor: {r: 0.3, g: 0.78, b: 0.32, a: 1}
+  backgroundColor: {r: 0.4, g: 0.72, b: 0.92, a: 1}
+  groundColor: {r: 0.86, g: 0.74, b: 0.4, a: 1}
